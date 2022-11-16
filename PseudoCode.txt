@@ -1,0 +1,86 @@
+1) write a pesudo code to add 2 numbers ?
+
+begin
+    numeric num1,num2,sum;
+    Accept num1,num2 values.
+    sum = num1+num2;
+    Display sum;
+end
+
+2) pesudo code to substrat,multiply,divide 2 numbers ?
+
+begin 
+     numeric num1,num2,sub,mul,div;
+     Accept num1,num2 values.
+     sub =num1 - num2;
+     mul = num1*num2;
+     div = num1/num2;
+     Display sub,mul,div;
+end
+
+3) find sum and average of 3 numbers.
+
+begin
+ numeric n1,n2,n3,total,average;
+ Accept n1,n2,n3;
+ total = n1+n2+n3;
+ average =(total*100)/3
+ Display total;
+ Display average;
+end
+
+4) input the age of the voter & check whether he is eligible to vote based on the age older than 18 years.
+
+begin
+  numeric voter age;
+  Accept voter age;
+ if(voter age>=18) {
+ Display "age of the voter is eligiable";
+} else
+ Display "age of the voter is not eligiable";
+end
+
+5) Check your Admission possibility to your dream college based on your academic marks.
+
+begin
+ Numeric "user marks,college eligible marks";
+ Accept user marks;
+if(user marks >= college eligible marks) {
+Display "user is eligible for this college";
+} else
+ Display "user is not eligible for this college;
+
+end
+
+6) print "bitlabs" ten times;
+
+begin
+     numeric i;
+     Accept i;
+    if(i<=10{
+  print "bitlabs";
+  }
+  increment i=i+1
+
+end
+
+7) print 1 to 10 numbers.
+
+begin
+  numeric i=1;
+ if(i<=10) {
+ print i;
+ }
+ increment i++;
+end
+
+8) print 10 to 1 numbers.
+
+begin
+  numeric i=10;
+ if(i>=1) {
+ print i;
+ }
+ increment i--;
+end
+
